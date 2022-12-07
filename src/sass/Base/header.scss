@@ -1,34 +1,38 @@
+
 .header__row {
-    max-height: 80px ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
 }
-.header__logo {
-    margin: 20px 0 0 16px;
+.header-logo {margin: 56px 100px 0 0px;
     
 }
+.header-logo__name{margin: 30px 0 0 5px;}
+.header-nav {
+    margin: 82px 0 0 ;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+    a{color: #101A24;}
+    a:hover{color: $accent;
+    transition: color 0.2s ease-in-out;}
 
-    
 
-.header__buttons {
-  a:first-child{ padding: 0 17px 0 0; }
-  margin: 24px 0 0 0 ;
-    font-weight: 500;
-font-size: 20px;
-line-height: 158%;
-a {color: #5A5B6A;}
+}
+.header-menu{ padding-left: 45px;
 }
 
 
-.header-serch{
-    
-}
-.search{}
-.button__consumer {
-}
-.account__buttons {
-}
-.account__btn {
-}
-.client__logo {
+.header__btn { 
+    border: 1px solid $accent; 
+    border-radius: 10px 5px 10px 5px;
+    white-space: nowrap;
+    a{color: #fff;}
+    padding: 16px 32px 19px 31px;
+    background-color: $accent;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    margin: 63px 0px 0 100px ;
+
 }
