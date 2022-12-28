@@ -1,0 +1,50 @@
+.special-dishes__row {
+  
+  position: relative;
+  bottom: 432px;
+}
+.special-dishes__preview {text-align: center;
+}
+.special-dishes__title {
+  
+  font-size: 4.375rem;
+  font-family: David Libre;
+  font-style: Bold;
+  white-space: nowrap;
+  text-align: center;
+  color: #101a24;
+}
+.special-dishes__text {
+  display: inline-block;
+  justify-content: center;
+  text-align: left;
+max-width: 376px ;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.81rem;
+}
+.special-dishes__content{display: flex;
+justify-content: center;}
+.special-dishes__menu {
+ 
+}
+.dish {
+}
+.price{position: relative;
+right: 65px;
+top: 30px;}
+.dishes-menu__title { 
+  margin-left: 50px;
+  text-align: left;
+  color: #101A24;
+  font-family:David Libre;
+  font-style: Bold;
+  font-size: 1.25rem;
+    
+}
+.dishes-menu__text {max-width: 255px;
+    
+}
+

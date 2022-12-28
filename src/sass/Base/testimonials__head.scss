@@ -1,22 +1,112 @@
 .testimonials__head {
 }
-.container {
-}
+
 .testimonials-head__row {
+  display: inline-flex;
+  justify-content: center;
 }
+
 .testimonials-head__oval {
+  margin: 130px 0 0 85px;
+  @media screen and (max-width: 1200px) {
+    margin: 100px 0 0 30px;
+  }
 }
 .testimonials-head__text {
+  margin: 30px 90px 0px 105px;
+  align-items: Left;
+  vertical-align: Top;
 }
+
 .testimonials-head__title {
+  font-family: David Libre;
+  color: #101a24;
+  font-style: Bold;
+  font-size: 4.3rem;
+  line-height: 72px;
 }
+
 .testimonials-head__txt {
-}
-.testimonials-head__button {
+  margin-top: 39px;
+  max-width: 376px;
+  color: #5c6574;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 1rem;
+  line-height: 29px;
 }
 .testimonials-head__btn {
+  margin: 29px 0px 0 145px;
 }
-.header__btn {
+.testimonials-head__button1 {
+  &:hover {
+    border: 1px solid $accent;
+    background-color: $accent;
+    color: #fff;
+    transition: 0.2s ease-in-out border, background-color, color;
+  }
 }
+.testimonials-head__button2 {
+  margin: 0 0 0 25px;
+  &:hover {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s ease-in-out border, background-color, color;
+  }
+}
+
+.food__plate {
+  transform: translatex(-40%) translateY(95%);
+  position: absolute;
+}
+
 .testimonials-head__image {
+  margin: 150px 0px 0 40px;
+}
+.testimonials-head__icons {
+  margin: 80px 0px 0px 143px;
+
+  svg circle {
+    transition: fill 0.2s ease-in-out;
+  }
+}
+.testimonials-head__icon1 {
+  fill: none;
+  margin-right: 10px;
+  &:hover {
+    fill: royalblue;
+  }
+}
+.testimonials-head__icon2 {
+  &:hover {
+    fill: palevioletred;
+  }
+  fill: none;
+  margin-right: 10px;
+}
+.testimonials-head__icon3 {
+  &:hover {
+    fill: lightseagreen;
+  }
+  fill: none;
+}
+.testimonial-background1 {
+  position: relative;
+  bottom: 800px;
+  z-index: -1;
+  right: 130px;
+}
+.testimonial-background2 {
+  position: relative;
+  bottom: 840px;
+  right: 120px;
+  z-index: -1;
+  opacity: 20%;
+}
+.testimonial-background3 {
+  position: relative;
+  z-index: -1;
+  bottom: 550px;
+  left: 30px;
 }

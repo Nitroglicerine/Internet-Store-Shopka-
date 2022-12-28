@@ -1,21 +1,24 @@
 
 .header__row {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 
 }
-.header-logo {margin: 56px 100px 0 0px;
+.header-logo {margin: 56px 170px  0px 100px;
+    @media screen and (max-width: 1300px){margin: 56px 50px 0 0 ;}
+        
+    
     
 }
 .header-logo__name{margin: 30px 0 0 5px;}
 .header-nav {
-    margin: 82px 0 0 ;
+    margin: 82px 0 0 0px ;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 29px;
-    a{color: #101A24;}
+    a{color: #000;}
     a:hover{color: $accent;
     transition: color 0.2s ease-in-out;}
 
@@ -25,14 +28,11 @@ line-height: 29px;
 }
 
 
-.header__btn { 
-    border: 1px solid $accent; 
-    border-radius: 10px 5px 10px 5px;
-    white-space: nowrap;
-    a{color: #fff;}
-    padding: 16px 32px 19px 31px;
-    background-color: $accent;
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+.header-button{ 
     margin: 63px 0px 0 100px ;
-
-}
+    &:hover {
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        transition: 0.2s ease-in-out border, background-color, color;
+}}
